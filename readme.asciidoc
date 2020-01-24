@@ -53,4 +53,4 @@ This setup is required if you want to push to bintray repository instead.
 . Create a new project, use `Pipeline Script from SCM`
 . Build the project pushes a Docker image to bintray repo
 
-final1
+final1 2
