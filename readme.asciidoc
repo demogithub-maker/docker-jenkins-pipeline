@@ -2,7 +2,7 @@
 
 == Manual Steps
 
-. *Start database*: `docker run -d --name db -p 8091-8093:8091-8093 -p 11210:11210 arungupta/oreilly-couchbase:latest`
+. *Start database*: `docker run -d --name db -p 8091-8093:8091-8093 -p 11210:11210 dockercloud19/jenkins-pipeline:latest`
 . *Run app*
 .. Using Maven
 ... *Build app*: `mvn -f webapp/pom.xml clean package`
